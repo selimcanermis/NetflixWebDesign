@@ -1,0 +1,207 @@
+/* GENERAL SETTINGS */
+p {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 18px;
+    /* font-weight: 400; */
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family:'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.btn-netflix{color:#fff;background-color:#E50915;border-color:#E50915}.btn-netflix:hover{color:#fff;background-color:#E50915;border-color:#E50915}.btn-netflix.focus,.btn-netflix:focus{box-shadow:0 0 0 .2rem rgba(225,83,97,.5)}.btn-netflix.disabled,.btn-netflix:disabled{color:#fff;background-color:#E50915;border-color:#E50915}.btn-netflix:not(:disabled):not(.disabled).active,.btn-netflix:not(:disabled):not(.disabled):active,.show>.btn-netflix.dropdown-toggle{color:#fff;background-color:#E50915;border-color:#E50915}.btn-netflix:not(:disabled):not(.disabled).active:focus,.btn-netflix:not(:disabled):not(.disabled):active:focus,.show>.btn-netflix.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(225,83,97,.5)}
+.btn-netflix-text{font-size:30px;letter-spacing: 1px;padding: 0.75em 0.75em 0.75em 0.75em;}
+
+.navbar {
+    border-bottom: #E50915 3px solid;
+}
+.nav-link {
+    color:white !important;
+    text-transform: uppercase;
+    transition: color 0.5s ease;
+}
+.nav-link:hover {
+    color: #E50915 !important;
+}
+
+#headerSection {
+    background: url('../images/background.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#headerSection .overlay{
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color:white;
+}
+
+.col h1 {
+    font-family: 'Anton', sans-serif;
+}
+.col span {
+    color: #E50915;
+}
+.col p{
+    color: white;
+    font-size: 70px;
+    font-family:'Anton', sans-serif;
+    letter-spacing: 5px;
+}
+
+/* FEATURES SECTİON */
+#features .fas {
+    font-size: 40px;
+}
+
+.feature-top {
+    transition: color 0.5s ease;
+}
+
+#features .feature-top:hover {
+    color: #E50915;
+    cursor: pointer;
+}
+
+#about h2 {
+    border-left: 6px solid #E50915;
+    padding-left: 30px;
+}
+
+#about p {
+    line-height: 28px;
+}
+
+#fragman {
+    background: linear-gradient(
+        rgba(0,0,0, .7),
+        rgba(0,0,0, .7)
+    ),
+    url(../images/ldr-2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fragman h2 {
+    color: white;
+    font-size: 72px;
+}
+
+#fragman i {
+    color: white;
+    transition: color 0.5s ease;
+}
+#fragman i:hover {
+    color:#E50915;
+}
+
+/* ORNEK DİZİ */
+#ornekDizi {
+    background-color:#C0C0C0;
+    line-height: 28px;
+}
+.diziArea {
+    background-color: white;
+    margin-top: 40px;
+    margin-right: -60px;
+    z-index: 100;
+    padding: 40px;
+    position: relative;
+    min-height: 420px;
+}
+
+#ornekDizi h3 {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family:'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+#ornekDizi p {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+#ornekDizi h4 {
+    font-size: 16px;
+    color:#808080;
+}
+
+/* PORTFOLIO SECTION */
+#portfolio .col-md-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+#portfolio img {
+    width: 380px;
+    height: 210px;
+}
+#portfolio h4 {
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family:'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+#portfolio .fa{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#portfolio p {
+    font-size: 14px;
+    font-weight: 300;
+}
+.imageContanier {
+    position: relative;
+    cursor: pointer;
+}
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #E50915;
+    opacity: 0;
+    transition: 1s ease;
+}
+.imageContanier:hover .imageOverlay {
+    opacity: 0.7;
+}
+.imageText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+}
